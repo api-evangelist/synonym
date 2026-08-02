@@ -1,22 +1,61 @@
 aid: synonym
 name: Synonym
-description: Synonym is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Synonym (rebranding to Roebling) is a biomanufacturing infrastructure and
+  finance company founded in 2022 by Edward Shenderovich and Joshua Lachter and
+  backed by Andreessen Horowitz (a16z). It develops, finances, and builds
+  commercial-scale bio-manufacturing facilities to give synthetic biology
+  producers flexible fermentation capacity, and it operates bioproduction tools
+  including a techno-economic modeling suite (TEA/FEL-1/FEL-2 engines) and the
+  Capacitor-powered Match platform that connects clients with production
+  capacity. As of this profile Synonym publishes only a marketing website and
+  private product surfaces; it exposes no public developer API, OpenAPI,
+  documentation portal, or /.well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/synonym/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/pOAldo5BYdU3no8KU4Hs13kMkaw.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biomanufacturing
+- Synthetic Biology
+- Biotechnology
+- Bioprocess
+- Infrastructure Finance
 apis: []
+common:
+- type: Website
+  url: https://synonym.bio
+- type: Blog
+  url: https://synonym.bio/insights
+- type: Support
+  url: https://synonym.bio/contact-us
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
